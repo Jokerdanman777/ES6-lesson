@@ -3,13 +3,26 @@
     <head>
         <meta charset="UTF-8">
         <title>Основы ES6</title>
+        <style>
+            #movies {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            #img {
+                flex: 100px;
+                margin: 5px;
+            }
+        </style>
     </head>
     <body>
+        <!-- <button></button>
         <button></button>
         <button></button>
         <button></button>
-        <button></button>
-        <button></button>
-        <script src="src/arrow-functions.js"></script>
+        <button></button> -->
+        <div id = movies></div>
+        <!-- для поддержки promise браузерами IE 11 и opera mini -->
+        <script src="node_modules/babel-polyfill/dist/polyfill.min.js"></script>
+        <script src="src/generators-creating.js"></script>
     </body>
 </html>
